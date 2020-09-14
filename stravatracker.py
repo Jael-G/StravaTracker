@@ -45,7 +45,7 @@ try:
     driver = webdriver.Chrome(executable_path='CHROMEDRIVER PATH HERE', options=chrome_options)
 
     while True:
-        page=driver.get('https://www.strava.com/athletes/24591649')
+        page=driver.get('STRAVA PROFILE LINK HERE') #THE STRAVA PROFILE LINK USUALLY GOES LIKE: https://www.strava.com/athletes/000000
         soup = BeautifulSoup(driver.page_source, "lxml")
         sleep(1)
         mydivs = soup.find("div", {"data-react-class": "AthleteProfileApp"})["data-react-props"]
