@@ -13,3 +13,10 @@ The rest normally come included in Python
 - After running it once,comment out the lines from 20 to 24 in order to prevent the program from riding the .csv headers over and over again.
 - You must specified your chrome driver path and your strava.com profile link in the areas indicated in the code
 
+# Running Code
+- Windows
+  ```python stravatracker.py```
+  
+ - Linux
+  ```python3 stravatracker.py```
+
